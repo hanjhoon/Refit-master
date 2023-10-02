@@ -2,11 +2,29 @@
 Refit 최종본
 ## ☑️ 프로젝트 소개
 
-- Refit은 헌 옷 재활용 웹사이트 프로젝트이며, 실 사업화를 위해 계속 개선 중입니다.
 - AI를 사용한 의류 분류와 매칭, 현 위치별 가까운 옷 분리수거 위치 안내, 자신의 의류 종류에 해당하는 캠페인 추천 기능이 프로젝트의 핵심 기술입니다.
-- 프로젝트의 주 사용 연령대층은 20 ~ 40대 청년-중년이며, 특히 30 ~ 40대 주부 분들을 타겟팅으로 합니다.
+
+### ☑️ REFIT 비즈니스 모델
+![image](https://github.com/hanjhoon/Refit-master/assets/121271030/eb40abe6-ceeb-4391-b642-354a73b9ddde)
 
 ---
+
+### ☑️ Information Architecture
+![image](https://github.com/hanjhoon/Refit-master/assets/121271030/3bc3b96c-beb0-4ab8-b4bc-7f97824c9ca6)
+
+---
+
+### ☑️ Service Architecture
+![image](https://github.com/hanjhoon/Refit-master/assets/121271030/00775810-81da-459e-a66b-1d51b7f75433)
+
+---
+
+### ☑️ API 설계
+![image](https://github.com/hanjhoon/Refit-master/assets/121271030/bc8ee3dd-01bc-4633-b34b-2b0afa07cb5e)
+![image](https://github.com/hanjhoon/Refit-master/assets/121271030/331666cc-97d8-473b-8ad5-0fe2ac57a476)
+
+---
+
 
 ## ☑️ 상세 정보
 
