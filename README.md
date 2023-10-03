@@ -70,31 +70,23 @@ Refit 최종본
 
 ### ☑️ 구현 기술 내역
 
-Back-End : 거리 기능별 추천 시스템, spring + 타 기술을 통한 AI 기능 탑재
++ Back-End : 거리 기능별 추천 시스템, spring + 타 기술을 통한 AI 기능 탑재
 
-사랑의 옷체통 : 댓글, 옷 등록, 나눔이나 기부 시 적용되는 마일리지 시스템 추가
+  + 사랑의 옷체통 : 댓글, 옷 등록, 나눔이나 기부 시 적용되는 마일리지 시스템 추가
 
-각각 AI 캠페인, 의류 나눔 게시판, google map API 기반 근처 의류수거함 찾기, 캠페인 리스트로 설정
+  + 각각 AI 캠페인, 의류 나눔 게시판, google map API 기반 근처 의류수거함 찾기, 캠페인 리스트로 설정
 
-프론트엔드 희망자가 없기에 부트스트랩으로 디자인을 미니멀하게 제작하는 대신 기능 다각화
++ AI : 기본 옷 + 헌 옷 image classification, 분류, label별로 25만 → 4만장의 데이터셋
 
-AI : 기본 옷 + 헌 옷 image classification, 분류, label별로 25만 → 4만장의 데이터셋
+  + spring → flask API 요청 시 inference model을 통한 학습 진행 후 label + 정확도 결과 도출
 
-spring → flask API 요청 시 inference model을 통한 학습 진행 후 label + 정확도 결과 도출
+  + efficient B0, MobileNet V2, diffusion + inception V3 등 여러 모델 시연 후 최상의 모델 선택
 
-efficient B0, MobileNet V2, diffusion + inception V3 등 여러 모델 시연 후 최상의 모델 선택
+  + data argumentation, ensemble을 통해 정확도 개선 
 
-data argumentation, ensemble을 통해 정확도 개선 
++ Docker로 백엔드 컨테이너화 이후 flask와 연동, aws ec2를 통해 이미지 저장
 
-이후 캠페인 매칭을 통해 분류된 옷 종류에 맞는 캠페인을 매칭해주는 시스템 개발 +
-
-detection + 정확도를 이용한 헌 옷 구별 기능 제작 예정.
-
-Engineer : Linux + Docker로 백엔드 컨테이너화 이후 flask와 연동, aws ec2를 통해 이미지 저장
-
-이미지 url을 json 형식으로 flask에 POST 하면 inference 후 다시 json 형식으로 ec2로 반환
-
-ec2의 json index를 이용해 매칭 시스템 개발 
+  + 이미지 url을 json 형식으로 flask에 POST 하면 inference 후 다시 json 형식으로 ec2로 반환
 
 ---
 
