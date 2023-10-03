@@ -10,7 +10,7 @@ Refit 최종본
 ---
 
 ### ☑️ Service Architecture
-![image](https://github.com/hanjhoon/Refit-master/assets/121271030/00775810-81da-459e-a66b-1d51b7f75433)
+![image](https://github.com/hanjhoon/Refit-master/assets/121271030/7bd5695b-9098-4683-82f6-556a605db30d)
 
 ---
 
