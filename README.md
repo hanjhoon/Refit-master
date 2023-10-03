@@ -9,11 +9,6 @@ Refit 최종본
 
 ---
 
-### ☑️ Information Architecture
-![image](https://github.com/hanjhoon/Refit-master/assets/121271030/3bc3b96c-beb0-4ab8-b4bc-7f97824c9ca6)
-
----
-
 ### ☑️ Service Architecture
 ![image](https://github.com/hanjhoon/Refit-master/assets/121271030/00775810-81da-459e-a66b-1d51b7f75433)
 
@@ -24,6 +19,12 @@ Refit 최종본
 ![image](https://github.com/hanjhoon/Refit-master/assets/121271030/331666cc-97d8-473b-8ad5-0fe2ac57a476)
 
 ---
+
+### ☑️ Information Architecture
+![image](https://github.com/hanjhoon/Refit-master/assets/121271030/3bc3b96c-beb0-4ab8-b4bc-7f97824c9ca6)
+
+---
+
 
 
 ## ☑️ 상세 정보
